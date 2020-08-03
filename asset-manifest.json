@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactsocmedapp/static/css/main.a158912f.chunk.css",
+    "main.js": "/reactsocmedapp/static/js/main.577173c3.chunk.js",
+    "main.js.map": "/reactsocmedapp/static/js/main.577173c3.chunk.js.map",
+    "runtime-main.js": "/reactsocmedapp/static/js/runtime-main.a0f6a2ac.js",
+    "runtime-main.js.map": "/reactsocmedapp/static/js/runtime-main.a0f6a2ac.js.map",
+    "static/js/2.3bafa248.chunk.js": "/reactsocmedapp/static/js/2.3bafa248.chunk.js",
+    "static/js/2.3bafa248.chunk.js.map": "/reactsocmedapp/static/js/2.3bafa248.chunk.js.map",
+    "index.html": "/reactsocmedapp/index.html",
+    "precache-manifest.93b9e275d927a1a9cc44eb96c1af86d6.js": "/reactsocmedapp/precache-manifest.93b9e275d927a1a9cc44eb96c1af86d6.js",
+    "service-worker.js": "/reactsocmedapp/service-worker.js",
+    "static/css/main.a158912f.chunk.css.map": "/reactsocmedapp/static/css/main.a158912f.chunk.css.map",
+    "static/js/2.3bafa248.chunk.js.LICENSE.txt": "/reactsocmedapp/static/js/2.3bafa248.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0f6a2ac.js",
+    "static/js/2.3bafa248.chunk.js",
+    "static/css/main.a158912f.chunk.css",
+    "static/js/main.577173c3.chunk.js"
+  ]
+}
