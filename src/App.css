@@ -1,97 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-
 .App {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  
 }
 
 .App-header {
-  background-color: #1b262c;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(8px + 2vmin);
   color: white;
 }
 
-.form {
+.postTitle {
+  font-size: 20px;
+}
+
+.postBox {
+  text-align: left;
+  width: 50%;
+  background: gray;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#userId {
+  color: deepskyblue
+}
+
+textarea {
+  width:50vw;
+  height: 20vh;
+  min-width: 100%;
+  resize: none;
+  padding: 10px;
+}
+
+#postBtn {
+  width: 70px;
+  height: 30px;
+  margin: 10px 0;  
+}
+
+.commentBtn {
+  width: 70px;
+  height: 30px;
+  margin: 10px 0;  
+}
+
+.deleteBtn {
+  font-size: 8px;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  background: white;
+
+}
+
+#addPostForm {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+
+.commentInputBox {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.commentInput {
+  width: 70%;
+  min-width: 40%;
+  height: 10vh;
+}
+
+.comment {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 20vw;
-  min-width:  300px;
-  background: #bbe1fa;
-  color: #1b262c;
-  height: 30vw;
-  min-height: 440px;
-  border-radius: 5px;
-  padding: 15px 25px;
-  margin: 0 auto;
-}
-
-.form label{
-  text-transform: uppercase;
-  width: 100%;
-  text-align: left;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 15px;
-}
-
-.form input{
- width: 100%;
- height: 50px;
- border: none;
- padding: 10px;
- font-size: 15px;
- font-weight: 300px;
- background: none;
- margin-bottom: 10px;
- border-bottom: .5px solid white;
-}
-
-.form input:focus {
-  outline: none;
-  border-bottom: 2px solid white;
-}
-
-.title {
-  font-size: 25px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.formBtn {
-  width: 100%;
-  height: 50px;
-  margin: 10px 0;
-  border-radius: 20px;
-  font-size: 18px;
-  text-transform: uppercase;
-  background: #0f4c75;
-  color: white;
+  background: lightslategrey;
   border: none;
-
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  text-align: right;
 }
 
-.formBtn:hover {
+.comment .commentAvatar, .postAvatar {
+  margin-right: 15px;
+}
+
+.commentBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+.postBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postAvatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+.commentAvatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+
+.toggleBtn {
+  border: none;
   background: none;
-  color: #0f4c75;
-  border: 1px solid #0f4c75;
-  font-size: 20px;
-  border-radius: 10px;
+  color: white;
 }
 
-.formBtn:focus {
-  outline: none;
-}
